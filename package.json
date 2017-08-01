@@ -1,0 +1,47 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "vue manger for admin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": ".\\node_modules\\.bin\\gulp connect",
+    "complie": "cross-env TYPE=complie node ./build/runtime-server.js",
+    "alonetomato": "cross-env TYPE=aloneTomato node ./build/rollup.alone.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vueManager-template/simple.git"
+  },
+  "keywords": [
+    "vuemanager-template",
+    "admin",
+    "simple"
+  ],
+  "author": "sam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vueManager-template/issues"
+  },
+  "homepage": "https://github.com/vueManager-template#readme",
+  "devDependencies": {    
+    "babel-plugin-lodash": "^3.2.11",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-vue": "^2.4.0"
+  },
+  "dependencies": {
+    "iview": "^2.0.0-rc.19",
+    "lodash": "^4.17.4",
+    "vue": "^2.4.1",
+    "vuex": "^2.3.1"
+  }
+}
