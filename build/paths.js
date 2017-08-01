@@ -7,6 +7,6 @@ module.exports = {
     },
     aloneTomato:{
         source: path.join(__dirname, "../src/aloneIndex.js"),
-        dest: path.join(__dirname, "../chrome-extends/alonetomato.js")
+        dest: path.join(__dirname, "../dest/alonetomato.js")
     }
 }
