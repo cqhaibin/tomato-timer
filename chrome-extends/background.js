@@ -1,4 +1,4 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
-    var destUrl = './tomatotimer/index.html';
+    var destUrl = './index.html';
     chrome.tabs.create({ url: destUrl });
 });
