@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": ".\\node_modules\\.bin\\electron .",
     "complie": "cross-env TYPE=complie node ./build/runtime-server.js",
-    "buildApp": ".\\node_modules\\.bin\\electron-packager . tomatoTimer --out ./outApp",
+    "buildApp": ".\\node_modules\\.bin\\electron-packager ./ tomatoTimer --out ./outApp --overwrite --ignore=node_modules",
     "alonetomato": "cross-env TYPE=aloneTomato node ./build/rollup.alone.conf.js"
   },
   "repository": {
